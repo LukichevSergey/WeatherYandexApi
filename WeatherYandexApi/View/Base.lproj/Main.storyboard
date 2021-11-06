@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" id="f5C-Ss-bxV">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" id="f5C-Ss-bxV" customClass="ListTableViewCell" customModule="WeatherYandexApi" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="44.5" width="414" height="44.5"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="f5C-Ss-bxV" id="fCl-gy-UdA">
@@ -69,6 +69,11 @@
                                         <constraint firstAttribute="bottomMargin" secondItem="8KH-bA-pyQ" secondAttribute="bottom" constant="0.5" id="wps-XD-UyG"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="conditionCityLabel" destination="Osf-3T-aYm" id="Sa8-pe-PDP"/>
+                                    <outlet property="nameCityLabel" destination="8KH-bA-pyQ" id="pSi-oB-8aa"/>
+                                    <outlet property="tempCityLabel" destination="m1a-SI-KhW" id="gQp-Lq-c5o"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>

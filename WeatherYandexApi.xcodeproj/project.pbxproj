@@ -17,6 +17,8 @@
 		877DA0B3273695F40087425E /* NetworkWeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877DA0B2273695F40087425E /* NetworkWeatherManager.swift */; };
 		877DA0B5273696FE0087425E /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877DA0B4273696FE0087425E /* WeatherData.swift */; };
 		877DA0B727369A2F0087425E /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877DA0B627369A2F0087425E /* Weather.swift */; };
+		877DA0B92736A3CE0087425E /* GetCitiesWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877DA0B82736A3CE0087425E /* GetCitiesWeather.swift */; };
+		877DA0BB2736AC8A0087425E /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877DA0BA2736AC8A0087425E /* ListTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		877DA0B2273695F40087425E /* NetworkWeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkWeatherManager.swift; sourceTree = "<group>"; };
 		877DA0B4273696FE0087425E /* WeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
 		877DA0B627369A2F0087425E /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		877DA0B82736A3CE0087425E /* GetCitiesWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetCitiesWeather.swift; sourceTree = "<group>"; };
+		877DA0BA2736AC8A0087425E /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +82,8 @@
 				877DA0B2273695F40087425E /* NetworkWeatherManager.swift */,
 				877DA0B4273696FE0087425E /* WeatherData.swift */,
 				877DA0B627369A2F0087425E /* Weather.swift */,
+				877DA0B82736A3CE0087425E /* GetCitiesWeather.swift */,
+				877DA0BA2736AC8A0087425E /* ListTableViewCell.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -184,8 +190,10 @@
 			files = (
 				877DA0AB273687AF0087425E /* ListTableViewController.swift in Sources */,
 				877DA097273685990087425E /* AppDelegate.swift in Sources */,
+				877DA0B92736A3CE0087425E /* GetCitiesWeather.swift in Sources */,
 				877DA0B3273695F40087425E /* NetworkWeatherManager.swift in Sources */,
 				877DA099273685990087425E /* SceneDelegate.swift in Sources */,
+				877DA0BB2736AC8A0087425E /* ListTableViewCell.swift in Sources */,
 				877DA0B5273696FE0087425E /* WeatherData.swift in Sources */,
 				877DA0B1273695870087425E /* Constant.swift in Sources */,
 				877DA0B727369A2F0087425E /* Weather.swift in Sources */,
